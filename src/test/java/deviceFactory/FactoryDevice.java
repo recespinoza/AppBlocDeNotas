@@ -1,9 +1,6 @@
 package deviceFactory;
 
-/**
- * @autor : eynar.pari
- * @date : 19/09/2020.
- **/
+
 public class FactoryDevice {
 
     public static IDevice make(String type){

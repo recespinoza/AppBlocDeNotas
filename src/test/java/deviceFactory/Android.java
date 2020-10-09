@@ -8,10 +8,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @autor : eynar.pari
- * @date : 19/09/2020.
- **/
+
 public class Android implements  IDevice {
     @Override
     public AppiumDriver create() throws MalformedURLException {

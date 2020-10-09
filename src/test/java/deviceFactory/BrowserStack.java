@@ -8,10 +8,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-/**
- * @autor : eynar.pari
- * @date : 19/09/2020.
- **/
+
 public class BrowserStack implements  IDevice {
 
     public static String userName = "USER";

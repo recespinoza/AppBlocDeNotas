@@ -5,10 +5,7 @@ import io.appium.java_client.AppiumDriver;
 
 import java.net.MalformedURLException;
 
-/**
- * @autor : eynar.pari
- * @date : 19/09/2020.
- **/
+
 public class Session {
 
     private static Session session=null;
