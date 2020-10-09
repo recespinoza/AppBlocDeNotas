@@ -24,7 +24,7 @@ capabilities.setCapability("appActivity","jikansoftware.com.blocdenotas.ui.notes
 capabilities.setCapability("platformName","Android");
 
 Atributos para el server de appium, estos atributos deben ser configurados según el dispositivo al que se realizara las pruebas.
-Estos atributos se encuentra en la clase Android.
+Estos atributos se encuentra en la clase Android.java.
 
 
 Por defecto las pruebas se realizan para dispositvos ANDROID
