@@ -1,0 +1,40 @@
+# TEST APP BLOC DE NOTAS
+App seleccionada para las pruebas mobile es el Bloc de Notas en español
+
+## INSTALACION
+
+https://play.google.com/store/apps/details?id=jikansoftware.com.blocdenotas
+De Jikan Software
+
+
+## PRUEBA UNITARIA
+
+Las dependencias utilizadas en este proyecto seran actualizadas al momento de la clonacion del proyecto.
+
+No olvidar cambiar los atributos:
+**deviceName** y
+**platformVersion**
+ de la Clase ANDROID
+
+
+capabilities.setCapability("deviceName","LG.G5");
+capabilities.setCapability("platformVersion","8.0.0");
+capabilities.setCapability("appPackage","jikansoftware.com.blocdenotas");
+capabilities.setCapability("appActivity","jikansoftware.com.blocdenotas.ui.notes.NotesActivity");
+capabilities.setCapability("platformName","Android");
+
+Atributos para el server de appium, estos atributos deben ser configurados según el dispositivo al que se realizara las pruebas.
+Estos atributos se encuentra en la clase Android.
+
+
+Por defecto las pruebas se realizan para dispositvos ANDROID
+
+## Autor
+* RENE ANTONIO ESPINOZA COHARITE
+
+
+## Desarrollado en
+
++ [junit](https://mvnrepository.com/artifact/org.junit.jupiter)
++ [gradle](https://gradle.org/)
++ [appium](https://mvnrepository.com/artifact/io.appium/java-client/7.3.0)
