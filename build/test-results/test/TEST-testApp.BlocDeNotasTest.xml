@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testApp.BlocDeNotasTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-09T15:46:53" hostname="LAPTOP-6NSA39VR" time="48.873">
+  <properties/>
+  <testcase name="verifyCreateNotes" classname="testApp.BlocDeNotasTest" time="48.873"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[oct. 09, 2020 11:47:15 A. M. io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
